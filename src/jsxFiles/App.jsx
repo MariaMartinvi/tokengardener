@@ -13,6 +13,7 @@ import Services from './Services.jsx';
 import CaseStudies from './CaseStudies.jsx';
 import Blog from './Blog.jsx';
 import Contact from './Contact.jsx';
+import BlogPost from './BlogPost.jsx'; // Import the BlogPost component
 
 // Importar configuración i18n
 import '../i18n';
@@ -30,6 +31,7 @@ function App() {
             <Route path="/services" element={<Services />} />
             <Route path="/case-studies" element={<CaseStudies />} />
             <Route path="/blog" element={<Blog />} />
+            <Route path="/blog/:slug" element={<BlogPost />} /> {/* Dynamic blog post route */}
             <Route path="/contact" element={<Contact />} />
           </Routes>
         </main>

@@ -74,20 +74,20 @@ const About = () => {
 
   const teamMembers = [
     {
-      name: t('teamMember1'),
-      position: t('teamPosition1'),
-      bio: t('teamDesc1'),
+      name: "Maria Martín",
+      position: "CEO & CTO",
+      bio: "Experta en SEO. Cofundadora de Tiendeo, empresa que fue adquirida por el Grupo Shopfully en 2022.",
       image: "https://randomuser.me/api/portraits/women/33.jpg"
     },
     {
-      name: t('teamMember2'),
-      position: t('teamPosition2'),
-      bio: t('teamDesc2'),
+      name: "Eva Martín",
+      position: "CMO y ventas",
+      bio: "Publicidad y CRMs. Cofundadora de Tiendeo, empresa que fue adquirida por el Grupo Shopfully en 2022.",
       image: "https://randomuser.me/api/portraits/men/54.jpg"
     },
     {
-      name: t('teamMember3'),
-      position: t('teamPosition3'),
+      name: "Chatgpt",
+      position: "Full stack developer",
       bio: t('teamDesc3'),
       image: "https://randomuser.me/api/portraits/women/68.jpg"
     }
